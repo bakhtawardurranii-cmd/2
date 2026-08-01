@@ -3,6 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="assets/favicon-192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="assets/favicon-180.png">
+<link rel="shortcut icon" href="assets/favicon.ico">
 <title>Contact Us | Tax Services Jersey City</title>
 <meta name="description" content="Book a tax consultation in Jersey City, NJ. Call, email, or send your details online and get a fixed quote before any work begins. Response within one business day.">
 <link rel="canonical" href="https://www.taxservicesjerseycity.com/contact.html">
@@ -55,17 +59,17 @@
       ],
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "[Street Address]",
-        "addressLocality": "Jersey City",
+        "streetAddress": "307 Westminster Blvd",
+        "addressLocality": "Parlin",
         "addressRegion": "NJ",
-        "postalCode": "[ZIP Code]",
+        "postalCode": "08859",
         "addressCountry": "US"
       },
-      "telephone": "+1-249-202-6781",
+      "telephone": "+1-929-746-4698",
       "priceRange": "$$",
       "contactPoint": {
         "@type": "ContactPoint",
-        "telephone": "+1-249-202-6781",
+        "telephone": "+1-929-746-4698",
         "contactType": "customer service",
         "areaServed": "US-NJ",
         "availableLanguage": "English"
@@ -374,6 +378,8 @@
   .whatsapp-widget:hover{ transform:translateY(-2px) scale(1.04); box-shadow:0 14px 28px -6px rgba(37,211,102,0.6); }
   .whatsapp-widget svg{ width:28px; height:28px; }
   @media (prefers-reduced-motion: reduce){ .whatsapp-widget{ transition:none; } }
+  .brand-logo{ height:36px; width:auto; display:block; }
+  .footer-brand-logo{ height:30px; width:auto; display:block; margin-bottom:4px; }
 </style>
 </head>
 <body>
@@ -383,17 +389,18 @@
 <header class="site">
   <div class="nav wrap">
     <a href="index.html" class="brand" aria-label="Tax Services Jersey City home">
-      <span class="mark">TSJC</span> Tax Services Jersey City
+      <img src="assets/logo.png" alt="Tax Services Jersey City" class="brand-logo">
     </a>
     <nav class="primary" aria-label="Primary">
       <a href="tax-accountant-new-jersey.html">Services</a>
       <a href="locations.html">Locations</a>
       <a href="blog.html">Insights</a>
+      <a href="faq.html">FAQ</a>
       <a href="about.html">About</a>
       <a href="contact.html" aria-current="page">Contact</a>
     </nav>
     <div class="nav-actions">
-      <a href="tel:+12492026781" class="phone-link">249-202-6781</a>
+      <a href="tel:+19297464698" class="phone-link">929-746-4698</a>
       <a href="contact.html" class="btn btn-primary">Book a Consultation</a>
       <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
         <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M2 5h16M2 10h16M2 15h16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
@@ -405,6 +412,7 @@
       <a href="tax-accountant-new-jersey.html" style="padding:12px 0;text-decoration:none;color:var(--ink);border-bottom:1px solid var(--line);">Services</a>
       <a href="locations.html" style="padding:12px 0;text-decoration:none;color:var(--ink);border-bottom:1px solid var(--line);">Locations</a>
       <a href="blog.html" style="padding:12px 0;text-decoration:none;color:var(--ink);border-bottom:1px solid var(--line);">Insights</a>
+      <a href="faq.html" style="padding:12px 0;text-decoration:none;color:var(--ink);border-bottom:1px solid var(--line);">FAQ</a>
       <a href="about.html" style="padding:12px 0;text-decoration:none;color:var(--ink);border-bottom:1px solid var(--line);">About</a>
       <a href="contact.html" style="padding:12px 0;text-decoration:none;color:var(--ink);">Contact</a>
     </div>
@@ -419,7 +427,7 @@
       <p class="breadcrumb"><a href="index.html">Home</a> <span aria-hidden="true">/</span> <span>Contact</span></p>
       <p class="eyebrow">Get In Touch</p>
       <h1>Tell us about your return and we'll respond within one business day</h1>
-      <p class="lede">Call, send a message below, or use WhatsApp. However you reach out, you'll hear from a person on our team, not an automated queue.</p>
+      <p class="lede">Call or send a message below. However you reach out, you'll hear from a person on our team, not an automated queue.</p>
     </div>
   </section>
 
@@ -445,7 +453,7 @@
               </div>
               <div class="field">
                 <label for="phone">Phone number</label>
-                <input type="tel" id="phone" name="phone" autocomplete="tel" required>
+                <input type="tel" id="phone" name="phone" autocomplete="tel" inputmode="numeric" pattern="[0-9]{7,15}" minlength="7" maxlength="15" title="Numbers only, no spaces or letters" required>
               </div>
             </div>
             <div class="field">
@@ -481,17 +489,12 @@
         <div class="info-stack">
           <div class="info-card">
             <span class="k">Call</span>
-            <a class="big-link" href="tel:+12492026781">249-202-6781</a>
+            <a class="big-link" href="tel:+19297464698">929-746-4698</a>
             <p>Fastest way to reach us during business hours.</p>
           </div>
           <div class="info-card">
-            <span class="k">Message on WhatsApp</span>
-            <a class="big-link" href="https://wa.me/12492026781" target="_blank" rel="noopener noreferrer">Start a chat</a>
-            <p>Good for quick questions or sending photos of a notice.</p>
-          </div>
-          <div class="info-card">
             <span class="k">Office</span>
-            <p style="margin-top:0;font-size:1rem;color:var(--ink);">[Street Address], Jersey City, NJ [ZIP]</p>
+            <p style="margin-top:0;font-size:1rem;color:var(--ink);">307 Westminster Blvd, Parlin, NJ 08859</p>
             <p>In-person meetings by appointment.</p>
           </div>
           <div class="info-card">
@@ -502,8 +505,12 @@
               <li><span>Sunday</span><span class="val mono">Closed</span></li>
             </ul>
           </div>
-          <div class="map-frame" role="img" aria-label="Map placeholder showing office location in Jersey City, NJ">
-            Map embed placeholder &mdash; insert Google Maps embed for [Street Address], Jersey City, NJ
+          <div class="map-frame">
+            <iframe
+              src="https://www.google.com/maps?q=307+Westminster+Blvd,+Parlin,+NJ+08859&output=embed"
+              width="100%" height="100%" style="border:0;" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Map showing our office location at 307 Westminster Blvd, Parlin, NJ 08859"></iframe>
           </div>
         </div>
 
@@ -547,7 +554,7 @@
   <div class="wrap">
     <div class="footer-grid">
       <div class="footer-brand">
-        <a href="index.html" class="brand" style="color:#fff;"><span class="mark" style="border-color:#D6B463;color:#D6B463;">TSJC</span> Tax Services Jersey City</a>
+        <a href="index.html" class="brand" style="color:#fff;"><img src="assets/logo-light.png" alt="Tax Services Jersey City" class="footer-brand-logo"></a>
         <p>Licensed tax accountants serving Jersey City, Hudson County, and New Jersey businesses and individuals.</p>
       </div>
       <div>
@@ -576,17 +583,19 @@
           <li><a href="about.html">About</a></li>
           <li><a href="contact.html">Contact</a></li>
           <li><a href="blog.html">Insights</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
         </ul>
       </div>
     </div>
     <div class="footer-bottom">
       <span>&copy; <span id="year"></span> Tax Services Jersey City. All rights reserved.</span>
-      <span>[Street Address], Jersey City, NJ [ZIP] &middot; 249-202-6781</span>
+      <span>307 Westminster Blvd, Parlin, NJ 08859 &middot; 929-746-4698</span>
     </div>
   </div>
 </footer>
 
-<a href="https://wa.me/12492026781" class="whatsapp-widget" target="_blank" rel="noopener noreferrer" aria-label="Chat with us on WhatsApp">
+<a href="https://wa.me/19297464698" class="whatsapp-widget" target="_blank" rel="noopener noreferrer" aria-label="Chat with us on WhatsApp">
   <svg viewBox="0 0 32 32" fill="currentColor" aria-hidden="true"><path d="M16.001 3C9.11 3 3.5 8.611 3.5 15.5c0 2.371.657 4.588 1.797 6.483L3 29l7.212-2.257A12.44 12.44 0 0 0 16 28.999C22.891 29 28.5 23.39 28.5 16.5S22.891 3 16.001 3Zm0 22.6a10.06 10.06 0 0 1-5.129-1.404l-.368-.218-4.28 1.339 1.36-4.17-.24-.382a10.06 10.06 0 0 1-1.544-5.365c0-5.578 4.539-10.117 10.201-10.117 5.663 0 10.2 4.539 10.2 10.117 0 5.579-4.537 10.2-10.2 10.2Zm5.59-7.632c-.306-.153-1.81-.893-2.09-.995-.28-.102-.484-.153-.688.153-.203.306-.789.995-.968 1.199-.178.204-.356.23-.662.077-.306-.153-1.293-.477-2.463-1.52-.91-.812-1.525-1.815-1.703-2.121-.178-.306-.019-.472.134-.624.138-.137.306-.357.459-.535.153-.179.204-.306.306-.51.102-.204.051-.383-.026-.535-.077-.153-.688-1.66-.943-2.274-.248-.596-.501-.516-.688-.526l-.586-.01c-.204 0-.535.077-.815.383-.28.306-1.069 1.045-1.069 2.55s1.094 2.958 1.246 3.163c.153.204 2.153 3.288 5.216 4.61.729.315 1.297.503 1.741.644.732.233 1.398.2 1.925.121.587-.088 1.81-.74 2.065-1.454.255-.715.255-1.327.179-1.454-.077-.128-.28-.204-.586-.357Z"/></svg>
 </a>
 
@@ -605,6 +614,13 @@
         menu.removeAttribute('hidden');
         toggle.setAttribute('aria-expanded', 'true');
       }
+    });
+  }
+
+  var phoneInput = document.getElementById('phone');
+  if (phoneInput) {
+    phoneInput.addEventListener('input', function () {
+      phoneInput.value = phoneInput.value.replace(/[^0-9]/g, '');
     });
   }
 
@@ -635,7 +651,7 @@
           form.reset();
         })
         .catch(function () {
-          status.textContent = 'Something went wrong sending your request. Please call 249-202-6781 or message us on WhatsApp instead.';
+          status.textContent = 'Something went wrong sending your request. Please call 929-746-4698 or message us on WhatsApp instead.';
           status.className = 'form-status error';
         })
         .finally(function () {

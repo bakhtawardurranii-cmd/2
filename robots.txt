@@ -1,10 +1,8 @@
 User-agent: *
 Allow: /
 
-Disallow: /cgi-bin/
+Disallow: /404.html
 Disallow: /*?*utm_
 Disallow: /*?*session
-Disallow: /thank-you/
-Disallow: /search/
 
 Sitemap: https://www.taxservicesjerseycity.com/sitemap.xml
