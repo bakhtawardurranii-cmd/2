@@ -3,6 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="favicon-192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="favicon-180.png">
+<link rel="shortcut icon" href="favicon.ico">
 <title>Tax Accountant New Jersey | Tax Services Jersey City</title>
 <meta name="description" content="Licensed tax accountant serving individuals and businesses across New Jersey. Fixed quotes, two-pass review, and year-round support. Book a consultation.">
 <link rel="canonical" href="https://www.taxservicesjerseycity.com/tax-accountant-new-jersey.html">
@@ -55,14 +59,19 @@
       ],
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "[Street Address]",
+        "streetAddress": "911 Bergen Ave, 1st Floor",
         "addressLocality": "Jersey City",
         "addressRegion": "NJ",
-        "postalCode": "[ZIP Code]",
+        "postalCode": "07306",
         "addressCountry": "US"
       },
-      "telephone": "+1-249-202-6781",
-      "priceRange": "$$"
+      "telephone": "+1-929-746-4698",
+      "priceRange": "$$",
+      "sameAs": [
+        "https://www.linkedin.com/company/tax-services-jersey-city",
+        "https://www.facebook.com/taxservicesjerseycity",
+        "https://x.com/taxservicesjers"
+      ]
     },
     {
       "@type": "WebSite",
@@ -112,7 +121,7 @@
         {
           "@type": "Question",
           "name": "Do you work with clients anywhere in New Jersey, or only Jersey City?",
-          "acceptedAnswer": {"@type": "Answer", "text": "We work with clients throughout New Jersey. In-person meetings are based in Jersey City, and remote engagements are available statewide through secure document upload and video calls."}
+          "acceptedAnswer": {"@type": "Answer", "text": "We work with clients throughout New Jersey. In-person meetings are available by appointment at our Jersey City office, and remote engagements are available statewide through secure document upload and video calls."}
         },
         {
           "@type": "Question",
@@ -294,13 +303,12 @@
 
   /* ---------- Services grid ---------- */
   .services-grid{
-    display:grid; grid-template-columns:repeat(1, 1fr); gap:1px;
-    background:var(--line); border:1px solid var(--line);
+    display:grid; grid-template-columns:repeat(1, 1fr); gap:16px;
   }
   @media(min-width:640px){ .services-grid{ grid-template-columns:repeat(2, 1fr); } }
   @media(min-width:960px){ .services-grid{ grid-template-columns:repeat(3, 1fr); } }
   .service-card{
-    background:var(--paper-raised); padding:32px 28px;
+    background:var(--paper-raised); border:1px solid var(--line); padding:32px 28px;
     display:flex; flex-direction:column; gap:14px;
     text-decoration:none; color:inherit;
     transition:background .2s ease;
@@ -393,6 +401,9 @@
   .footer-grid a{ text-decoration:none; color:#D7DCE3; font-size:0.92rem; }
   .footer-grid a:hover{ color:#fff; }
   .footer-brand p{ color:#8391A2; font-size:0.9rem; max-width:32ch; }
+  .social-links{ display:flex; gap:12px; margin-top:18px; }
+  .social-links a{ width:34px; height:34px; border-radius:50%; border:1px solid rgba(255,255,255,0.18); display:flex; align-items:center; justify-content:center; color:#D7DCE3; transition:background .2s ease, border-color .2s ease, color .2s ease; }
+  .social-links a:hover{ background:var(--brass-deep); border-color:var(--brass-deep); color:#fff; }
   .footer-bottom{
     margin-top:48px; padding-top:24px; border-top:1px solid rgba(255,255,255,0.12);
     display:flex; flex-wrap:wrap; justify-content:space-between; gap:12px;
@@ -412,6 +423,8 @@
   .whatsapp-widget:hover{ transform:translateY(-2px) scale(1.04); box-shadow:0 14px 28px -6px rgba(37,211,102,0.6); }
   .whatsapp-widget svg{ width:28px; height:28px; }
   @media (prefers-reduced-motion: reduce){ .whatsapp-widget{ transition:none; } }
+  .brand-logo{ height:36px; width:auto; display:block; }
+  .footer-brand-logo{ height:30px; width:auto; display:block; margin-bottom:4px; }
 </style>
 </head>
 <body>
@@ -421,17 +434,18 @@
 <header class="site">
   <div class="nav wrap">
     <a href="index.html" class="brand" aria-label="Tax Services Jersey City home">
-      <span class="mark">TSJC</span> Tax Services Jersey City
+      <img src="logo.png" alt="Tax Services Jersey City" class="brand-logo">
     </a>
     <nav class="primary" aria-label="Primary">
       <a href="tax-accountant-new-jersey.html" aria-current="page">Services</a>
       <a href="locations.html">Locations</a>
       <a href="blog.html">Insights</a>
+      <a href="faq.html">FAQ</a>
       <a href="about.html">About</a>
       <a href="contact.html">Contact</a>
     </nav>
     <div class="nav-actions">
-      <a href="tel:+12492026781" class="phone-link">249-202-6781</a>
+      <a href="tel:+19297464698" class="phone-link">929-746-4698</a>
       <a href="contact.html" class="btn btn-primary">Book a Consultation</a>
       <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
         <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M2 5h16M2 10h16M2 15h16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
@@ -443,6 +457,7 @@
       <a href="tax-accountant-new-jersey.html" style="padding:12px 0;text-decoration:none;color:var(--ink);border-bottom:1px solid var(--line);">Services</a>
       <a href="locations.html" style="padding:12px 0;text-decoration:none;color:var(--ink);border-bottom:1px solid var(--line);">Locations</a>
       <a href="blog.html" style="padding:12px 0;text-decoration:none;color:var(--ink);border-bottom:1px solid var(--line);">Insights</a>
+      <a href="faq.html" style="padding:12px 0;text-decoration:none;color:var(--ink);border-bottom:1px solid var(--line);">FAQ</a>
       <a href="about.html" style="padding:12px 0;text-decoration:none;color:var(--ink);border-bottom:1px solid var(--line);">About</a>
       <a href="contact.html" style="padding:12px 0;text-decoration:none;color:var(--ink);">Contact</a>
     </div>
@@ -461,7 +476,7 @@
         <p class="lede">Individual and business tax preparation, planning, and IRS representation for clients across New Jersey. Fixed quotes, a dedicated preparer, and support that continues after your return is filed.</p>
         <div class="hero-ctas">
           <a href="contact.html" class="btn btn-primary">Book a Consultation</a>
-          <a href="tel:+12492026781" class="btn btn-outline">Call 249-202-6781</a>
+          <a href="tel:+19297464698" class="btn btn-outline">Call 929-746-4698</a>
         </div>
       </div>
       <div class="ledger-card" role="group" aria-label="Key service facts">
@@ -593,7 +608,7 @@
         </div>
         <div class="why-item">
           <div class="icon"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M4 14V6l5-3 5 3v8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-          <h3>Statewide, based in Jersey City</h3>
+          <h3>Statewide, based in Jersey City, NJ</h3>
           <p>We know New Jersey's filing rules firsthand and work with clients in person locally or remotely statewide.</p>
         </div>
         <div class="why-item">
@@ -648,7 +663,7 @@
       <div class="section-head">
         <p class="eyebrow">Where We Work</p>
         <h2 id="locations-heading">Serving Jersey City and the surrounding area</h2>
-        <p>In-person meetings are based in Jersey City. Remote engagements are available throughout New Jersey.</p>
+        <p>In-person meetings are available by appointment at our Jersey City office. Remote engagements are available throughout New Jersey.</p>
       </div>
       <div class="locations-grid">
         <a class="location-card" href="tax-accountant-jersey-city.html"><span class="city">Jersey City</span><span class="mono" style="color:var(--text-soft);font-size:0.85rem;">HQ</span></a>
@@ -677,7 +692,7 @@
         </details>
         <details class="faq-item">
           <summary class="faq-q">Do you work with clients anywhere in New Jersey, or only Jersey City?<span class="plus mono">+</span></summary>
-          <div class="faq-a">We work with clients throughout New Jersey. In-person meetings are based in Jersey City, and remote engagements are available statewide through secure document upload and video calls.</div>
+          <div class="faq-a">We work with clients throughout New Jersey. In-person meetings are available by appointment at our Jersey City office, and remote engagements are available statewide through secure document upload and video calls.</div>
         </details>
         <details class="faq-item">
           <summary class="faq-q">How is pricing determined for tax accountant services?<span class="plus mono">+</span></summary>
@@ -693,7 +708,7 @@
     <p>Book a consultation and we'll confirm the right service for your situation and give you a fixed quote before any work begins.</p>
     <div class="hero-ctas">
       <a href="contact.html" class="btn btn-primary">Schedule a Consultation</a>
-      <a href="tel:+12492026781" class="btn btn-outline">Call 249-202-6781</a>
+      <a href="tel:+19297464698" class="btn btn-outline">Call 929-746-4698</a>
     </div>
   </section>
 
@@ -703,8 +718,13 @@
   <div class="wrap">
     <div class="footer-grid">
       <div class="footer-brand">
-        <a href="index.html" class="brand" style="color:#fff;"><span class="mark" style="border-color:#D6B463;color:#D6B463;">TSJC</span> Tax Services Jersey City</a>
+        <a href="index.html" class="brand" style="color:#fff;"><img src="logo-light.png" alt="Tax Services Jersey City" class="footer-brand-logo"></a>
         <p>Licensed tax accountants serving Jersey City, Hudson County, and New Jersey businesses and individuals.</p>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/company/tax-services-jersey-city" target="_blank" rel="noopener noreferrer" aria-label="Tax Services Jersey City on LinkedIn"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45Z"/></svg></a>
+          <a href="https://www.facebook.com/taxservicesjerseycity" target="_blank" rel="noopener noreferrer" aria-label="Tax Services Jersey City on Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 21v-7.5h2.5l.4-3h-2.9V8.4c0-.87.24-1.46 1.5-1.46h1.6V4.28C16.3 4.2 15.4 4.1 14.36 4.1c-2.16 0-3.64 1.32-3.64 3.75v2.65H8.2v3h2.52V21h2.78Z"/></svg></a>
+          <a href="https://x.com/taxservicesjers" target="_blank" rel="noopener noreferrer" aria-label="Tax Services Jersey City on X"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.9 10.75 20.3 3h-1.52l-5.56 6.74L8.77 3H3.5l6.72 9.62L3.5 21h1.52l5.87-7.12L15.73 21H21l-7.1-10.25Zm-2.08 2.52-.68-.97-5.42-7.75h2.34l4.37 6.25.68.97 5.68 8.13h-2.34l-4.63-6.63Z"/></svg></a>
+        </div>
       </div>
       <div>
         <h4>Services</h4>
@@ -732,17 +752,19 @@
           <li><a href="about.html">About</a></li>
           <li><a href="contact.html">Contact</a></li>
           <li><a href="blog.html">Insights</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
         </ul>
       </div>
     </div>
     <div class="footer-bottom">
       <span>&copy; <span id="year"></span> Tax Services Jersey City. All rights reserved.</span>
-      <span>[Street Address], Jersey City, NJ [ZIP] &middot; 249-202-6781</span>
+      <span>911 Bergen Ave, 1st Floor, Jersey City, NJ 07306 &middot; 929-746-4698</span>
     </div>
   </div>
 </footer>
 
-<a href="https://wa.me/12492026781" class="whatsapp-widget" target="_blank" rel="noopener noreferrer" aria-label="Chat with us on WhatsApp">
+<a href="https://wa.me/19297464698" class="whatsapp-widget" target="_blank" rel="noopener noreferrer" aria-label="Chat with us on WhatsApp">
   <svg viewBox="0 0 32 32" fill="currentColor" aria-hidden="true"><path d="M16.001 3C9.11 3 3.5 8.611 3.5 15.5c0 2.371.657 4.588 1.797 6.483L3 29l7.212-2.257A12.44 12.44 0 0 0 16 28.999C22.891 29 28.5 23.39 28.5 16.5S22.891 3 16.001 3Zm0 22.6a10.06 10.06 0 0 1-5.129-1.404l-.368-.218-4.28 1.339 1.36-4.17-.24-.382a10.06 10.06 0 0 1-1.544-5.365c0-5.578 4.539-10.117 10.201-10.117 5.663 0 10.2 4.539 10.2 10.117 0 5.579-4.537 10.2-10.2 10.2Zm5.59-7.632c-.306-.153-1.81-.893-2.09-.995-.28-.102-.484-.153-.688.153-.203.306-.789.995-.968 1.199-.178.204-.356.23-.662.077-.306-.153-1.293-.477-2.463-1.52-.91-.812-1.525-1.815-1.703-2.121-.178-.306-.019-.472.134-.624.138-.137.306-.357.459-.535.153-.179.204-.306.306-.51.102-.204.051-.383-.026-.535-.077-.153-.688-1.66-.943-2.274-.248-.596-.501-.516-.688-.526l-.586-.01c-.204 0-.535.077-.815.383-.28.306-1.069 1.045-1.069 2.55s1.094 2.958 1.246 3.163c.153.204 2.153 3.288 5.216 4.61.729.315 1.297.503 1.741.644.732.233 1.398.2 1.925.121.587-.088 1.81-.74 2.065-1.454.255-.715.255-1.327.179-1.454-.077-.128-.28-.204-.586-.357Z"/></svg>
 </a>
 
