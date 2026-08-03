@@ -5,4 +5,4 @@ Disallow: /404.html
 Disallow: /*?*utm_
 Disallow: /*?*session
 
-Sitemap: https://www.taxservicesjerseycity.com/sitemap.xml
+Sitemap: https://taxservicesjerseycity.com/sitemap.xml
