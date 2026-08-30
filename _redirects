@@ -1,0 +1,8 @@
+# Canonical domain: https://taxservicesjerseycity.com/ (non-www, HTTPS)
+# Only needed if this site is hosted on Netlify (or a platform that reads
+# this file, e.g. Vercel with adaptation). If hosted on GitHub Pages,
+# ignore this file and see redirect-setup-notes.md instead.
+
+https://www.taxservicesjerseycity.com/*  https://taxservicesjerseycity.com/:splat  301!
+http://www.taxservicesjerseycity.com/*   https://taxservicesjerseycity.com/:splat  301!
+http://taxservicesjerseycity.com/*       https://taxservicesjerseycity.com/:splat  301!

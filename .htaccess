@@ -1,0 +1,13 @@
+# Canonical domain: https://taxservicesjerseycity.com/ (non-www, HTTPS)
+# Only needed if this site is hosted on Apache. If hosted on GitHub Pages,
+# ignore this file and see redirect-setup-notes.md instead.
+
+RewriteEngine On
+
+# 1) Force HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# 2) Force non-www (www -> apex)
+RewriteCond %{HTTP_HOST} ^www\.taxservicesjerseycity\.com$ [NC]
+RewriteRule ^(.*)$ https://taxservicesjerseycity.com/$1 [L,R=301]
