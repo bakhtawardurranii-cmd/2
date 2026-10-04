@@ -45,18 +45,36 @@
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": ["AccountingService", "LocalBusiness"],
+      "@type": [
+        "AccountingService",
+        "LocalBusiness"
+      ],
       "@id": "https://taxservicesjerseycity.com/#business",
       "name": "Tax Services Jersey City",
       "url": "https://taxservicesjerseycity.com/",
       "image": "https://taxservicesjerseycity.com/og-cover.jpg",
-      "description": "Licensed tax accountants providing individual and business tax preparation, planning, and filing services in Jersey City, NJ and Hudson County.",
+      "description": "Individual and business tax preparation, tax planning, and IRS notice help in Jersey City, NJ and Hudson County, from IRS-registered preparers.",
       "areaServed": [
-        {"@type": "City", "name": "Jersey City"},
-        {"@type": "City", "name": "Newark"},
-        {"@type": "City", "name": "Bloomfield"},
-        {"@type": "City", "name": "Toms River"},
-        {"@type": "State", "name": "New Jersey"}
+        {
+          "@type": "City",
+          "name": "Jersey City"
+        },
+        {
+          "@type": "City",
+          "name": "Newark"
+        },
+        {
+          "@type": "City",
+          "name": "Bloomfield"
+        },
+        {
+          "@type": "City",
+          "name": "Toms River"
+        },
+        {
+          "@type": "State",
+          "name": "New Jersey"
+        }
       ],
       "knowsAbout": [
         "Individual Tax Preparation",
@@ -82,7 +100,13 @@
       "hasMap": "https://www.google.com/maps?q=911+Bergen+Ave,+Jersey+City,+NJ+07306",
       "openingHoursSpecification": {
         "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
         "opens": "09:00",
         "closes": "18:00"
       },
@@ -97,20 +121,31 @@
       "@id": "https://taxservicesjerseycity.com/#website",
       "url": "https://taxservicesjerseycity.com/",
       "name": "Tax Services Jersey City",
-      "publisher": {"@id": "https://taxservicesjerseycity.com/#business"}
+      "publisher": {
+        "@id": "https://taxservicesjerseycity.com/#business"
+      }
     },
     {
       "@type": "WebPage",
       "@id": "https://taxservicesjerseycity.com/#webpage",
       "url": "https://taxservicesjerseycity.com/",
       "name": "Tax Services Jersey City, NJ | Tax Preparation & Accountant",
-      "isPartOf": {"@id": "https://taxservicesjerseycity.com/#website"},
-      "about": {"@id": "https://taxservicesjerseycity.com/#business"}
+      "isPartOf": {
+        "@id": "https://taxservicesjerseycity.com/#website"
+      },
+      "about": {
+        "@id": "https://taxservicesjerseycity.com/#business"
+      }
     },
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://taxservicesjerseycity.com/"}
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://taxservicesjerseycity.com/"
+        }
       ]
     },
     {
@@ -119,38 +154,56 @@
         {
           "@type": "Question",
           "name": "What tax services do you offer in Jersey City?",
-          "acceptedAnswer": {"@type": "Answer", "text": "We offer individual tax preparation, business tax preparation, tax planning and consulting, IRS and New Jersey notice assistance, LLC and S-Corp tax support, and multi-state NY/NJ filing for Jersey City residents and businesses."}
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We offer individual tax preparation, business tax preparation, tax planning and consulting, IRS and New Jersey notice assistance, LLC and S-Corp tax support, and multi-state NY/NJ filing for Jersey City residents and businesses."
+          }
         },
         {
           "@type": "Question",
           "name": "How much does it cost to hire a tax accountant in Jersey City?",
-          "acceptedAnswer": {"@type": "Answer", "text": "Cost depends on the complexity of your return. A simple individual return costs less than a small business return with multiple schedules. We provide a fixed quote before any work begins, so there are no surprises."}
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cost depends on the complexity of your return. A simple individual return costs less than a small business return with multiple schedules. We provide a fixed quote before any work begins, so there are no surprises."
+          }
         },
         {
           "@type": "Question",
           "name": "Do you work with clients outside Jersey City?",
-          "acceptedAnswer": {"@type": "Answer", "text": "Yes. We serve individuals and businesses throughout Hudson County and New Jersey, and we handle most engagements remotely through secure document upload and video calls."}
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We serve individuals and businesses throughout Hudson County and New Jersey, and we handle most engagements remotely through secure document upload and video calls."
+          }
         },
         {
           "@type": "Question",
           "name": "Can you help if I'm behind on filing previous years?",
-          "acceptedAnswer": {"@type": "Answer", "text": "Yes. We regularly help individuals and business owners catch up on unfiled prior-year returns and work with the IRS and New Jersey Division of Taxation on notices and payment plans."}
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We regularly help individuals and business owners catch up on unfiled prior-year returns and work with the IRS and New Jersey Division of Taxation on notices and payment plans."
+          }
         },
         {
           "@type": "Question",
           "name": "What documents do I need to get started?",
-          "acceptedAnswer": {"@type": "Answer", "text": "For most individual returns you'll need income statements (W-2s or 1099s), records of deductible expenses, and last year's return. For business returns we'll also ask for bookkeeping records or bank statements. We send a checklist tailored to your situation after your first call."}
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For most individual returns you'll need income statements (W-2s or 1099s), records of deductible expenses, and last year's return. For business returns we'll also ask for bookkeeping records or bank statements. We send a checklist tailored to your situation after your first call."
+          }
         },
         {
           "@type": "Question",
           "name": "Do you offer tax planning, not just tax filing?",
-          "acceptedAnswer": {"@type": "Answer", "text": "Yes. Filing reports what already happened. Planning looks ahead, at entity structure, estimated payments, retirement contributions, and timing of income or expenses, so next year's return is smaller and less stressful."}
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Filing reports what already happened. Planning looks ahead, at entity structure, estimated payments, retirement contributions, and timing of income or expenses, so next year's return is smaller and less stressful."
+          }
         }
       ]
     }
   ]
 }
-</script>
+  </script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -173,7 +226,7 @@
     </nav>
     <div class="nav-actions">
       <a href="tel:+19297464698" class="phone-link">929-746-4698</a>
-      <a href="contact.html" class="btn btn-primary">Book a Consultation</a>
+      <a href="contact.html" class="btn btn-primary">Get a Fixed Quote</a>
       <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
         <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M2 5h16M2 10h16M2 15h16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
       </button>
@@ -182,7 +235,7 @@
   <nav id="mobile-menu" class="mobile-menu" hidden aria-label="Mobile">
     <div class="wrap" style="display:flex;flex-direction:column;gap:2px;padding-bottom:20px;">
       <div style="display:flex;flex-direction:column;gap:10px;padding:16px 0 20px;">
-        <a href="contact.html" class="btn btn-primary" style="width:100%;">Book a Consultation</a>
+        <a href="contact.html" class="btn btn-primary" style="width:100%;">Get a Fixed Quote</a>
         <a href="tel:+19297464698" class="btn btn-outline" style="width:100%;">Call 929-746-4698</a>
       </div>
       <a href="tax-accountant-new-jersey.html" style="padding:12px 0;text-decoration:none;color:var(--ink);border-bottom:1px solid var(--line);">Services</a>
@@ -200,6 +253,10 @@
 
 <main id="main">
 
+  <!-- REMOVE THIS NOTICE AFTER OCTOBER 15, 2026 -->
+  <div class="seasonal-note"><div class="wrap"><strong>Filed an extension?</strong> Extended 2025 returns are due October 15, 2026. <a href="october-15-tax-extension-deadline-new-jersey.html">See how to file on time, or catch up</a>.</div></div>
+
+
   <!-- HERO -->
   <section class="hero">
     <div class="wrap hero-grid">
@@ -208,9 +265,10 @@
         <h1>Tax Services in Jersey City, NJ for Individuals and Small Businesses</h1>
         <p class="lede">Local tax preparation, tax planning, and tax consulting from a Jersey City tax accountant who handles federal, New Jersey, and multi-state NY/NJ returns for residents, freelancers, LLC owners, and small businesses. Straight answers, fixed quotes, no jargon.</p>
         <div class="hero-ctas">
-          <a href="contact.html" class="btn btn-primary">Book a Consultation</a>
+          <a href="contact.html" class="btn btn-primary">Get a Fixed Quote</a>
           <a href="tel:+19297464698" class="btn btn-outline">Call 929-746-4698</a>
         </div>
+        <p class="hero-hours">Mon–Fri, 9 AM–6 PM · Reply within one business day</p>
       </div>
       <div class="ledger-card" role="group" aria-label="Key filing facts">
         <p class="ledger-title">Filing Season, At A Glance</p>
@@ -226,7 +284,7 @@
     <div class="wrap">
       <div class="trust-item">
         <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M3 9.5l4 4L15 5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        Licensed New Jersey tax preparers
+        IRS-registered preparers (active PTINs)
       </div>
       <div class="trust-item">
         <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M3 9.5l4 4L15 5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -248,12 +306,12 @@
     <div class="wrap">
       <div class="section-head">
         <p class="eyebrow">Jersey City's Local Tax Team</p>
-        <h2 id="overview-heading">A Jersey City tax accountant, tax preparer, and tax consultant, in one practice</h2>
+        <h2 id="overview-heading">One local practice for your return, your planning and your IRS questions</h2>
       </div>
       <div class="prose">
-        <p>Tax Services Jersey City is a local tax preparation and accounting practice based at 911 Bergen Ave, working with individuals and small businesses across Jersey City and Hudson County. Whether you're searching for a <strong>tax accountant in Jersey City</strong>, a <strong>tax preparer</strong> for a straightforward W-2 return, or a <strong>tax consultant</strong> to help plan next year's filing before it becomes urgent, we handle the full range of tax preparation and tax filing services Jersey City residents and business owners actually need, in one place.</p>
+        <p>Tax Services Jersey City is a tax preparation and accounting practice at 911 Bergen Ave, serving individuals and small businesses across Jersey City and Hudson County. We prepare federal, New Jersey and multi-state returns, plan ahead for next year, and handle IRS and NJ Division of Taxation notices. Many of our clients live here and work in New York, so NY/NJ returns are a weekly routine for us, not an exception.</p>
         <p>That includes individual tax preparation for employees, retirees, and freelancers; business tax preparation for LLCs, S-Corps, and multi-entity owners; year-round tax planning and consulting; and help responding to IRS or New Jersey Division of Taxation notices. A large share of our Jersey City clients commute into New York for work, so multi-state NY/NJ returns are something we prepare every week, not an occasional exception.</p>
-        <p>Looking for more detail on a specific service? See our full <a href="tax-services-jersey-city.html">Tax Services Jersey City</a> guide for a comprehensive breakdown of individual, business, and IRS-related tax help, or go straight to <a href="tax-preparation-jersey-city.html">Tax Preparation Jersey City</a> if you're ready to file. If you'd rather talk to a person first, our <a href="tax-accountant-jersey-city.html">Jersey City tax accountant</a> page covers how in-person and remote engagements work.</p>
+        <p>Want more detail? Browse <a href="tax-services-jersey-city.html">everything we offer</a>, go straight to <a href="tax-preparation-jersey-city.html">tax preparation</a> if you're ready to file, or read how <a href="tax-accountant-jersey-city.html">working with our Jersey City office</a> works in person and remotely.</p>
       </div>
     </div>
   </section>
@@ -274,9 +332,9 @@
 
         <a class="service-card" href="tax-services-jersey-city.html">
           <span class="num mono">01</span>
-          <h3>Tax Services Jersey City</h3>
-          <p>The full picture: individual, business, planning, and IRS-related tax services in one comprehensive guide.</p>
-          <span class="go">See All Tax Services <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7h8M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          <h3>All Tax Services</h3>
+          <p>Compare every service we offer, from individual returns to IRS notice help, on one page.</p>
+          <span class="go">See the Full Service List <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7h8M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
         </a>
 
         <a class="service-card" href="tax-preparation-jersey-city.html">
@@ -323,9 +381,9 @@
 
         <a class="service-card" href="tax-accountant-new-jersey.html">
           <span class="num mono">08</span>
-          <h3>General Tax Accountant Services</h3>
-          <p>Not sure which service fits? Start here for a full view of what we cover.</p>
-          <span class="go">See All Tax Accountant Services <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7h8M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          <h3>Remote &amp; Statewide Service</h3>
+          <p>Outside Hudson County? See how we work with clients anywhere in New Jersey, entirely online.</p>
+          <span class="go">How Remote Service Works <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7h8M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
         </a>
 
       </div>
@@ -480,7 +538,7 @@
         <p class="eyebrow">Specialized Tax Help</p>
         <h2 id="spec-heading">Specialized tax help for Jersey City</h2>
       </div>
-      <div class="related-grid"><a class="related-card" href="cannabis-tax-accountant-jersey-city.html"><span class="name">tax services for licensed NJ cannabis operators</span></a><a class="related-card" href="new-york-nonresident-tax-return-jersey-city.html"><span class="name">New York nonresident tax returns for NJ residents</span></a><a class="related-card" href="itin-foreign-income-tax-preparer-jersey-city.html"><span class="name">ITIN help from an IRS Certifying Acceptance Agent</span></a><a class="related-card" href="tax-notice-help-jersey-city.html"><span class="name">having someone handle an IRS letter for you</span></a><a class="related-card" href="freelancer-1099-accountant-jersey-city.html"><span class="name">accountant for freelancers and 1099 contractors</span></a><a class="related-card" href="tax-preparation-cost-jersey-city.html"><span class="name">how our fixed-quote pricing works</span></a></div>
+      <div class="related-grid"><a class="related-card" href="cannabis-tax-accountant-jersey-city.html"><span class="name">tax services for licensed NJ cannabis operators</span></a><a class="related-card" href="new-york-nonresident-tax-return-jersey-city.html"><span class="name">New York nonresident tax returns for NJ residents</span></a><a class="related-card" href="itin-foreign-income-tax-preparer-jersey-city.html"><span class="name">ITIN help from an IRS Certifying Acceptance Agent</span></a><a class="related-card" href="tax-notice-help-jersey-city.html"><span class="name">having someone handle an IRS letter for you</span></a><a class="related-card" href="freelancer-1099-accountant-jersey-city.html"><span class="name">accountant for freelancers and 1099 contractors</span></a><a class="related-card" href="tax-preparation-cost-jersey-city.html"><span class="name">how our fixed-quote pricing works</span></a><a class="related-card" href="salt-cap-new-jersey-homeowners.html"><span class="name">the higher SALT cap for NJ homeowners</span></a></div>
     </div>
   </section>
 
@@ -488,7 +546,7 @@
     <h2 id="cta-heading">Ready to talk through your taxes?</h2>
     <p>Book a consultation and we'll tell you exactly what your return needs and what it will cost, before any work begins.</p>
     <div class="hero-ctas">
-      <a href="contact.html" class="btn btn-primary">Schedule a Consultation</a>
+      <a href="contact.html" class="btn btn-primary">Get a Fixed Quote</a>
       <a href="tel:+19297464698" class="btn btn-outline">Call 929-746-4698</a>
     </div>
   </section>
@@ -500,7 +558,7 @@
     <div class="footer-grid">
       <div class="footer-brand">
         <a href="/" class="brand" style="color:#fff;"><img src="logo-light.png" alt="Tax Services Jersey City" class="footer-brand-logo"></a>
-        <p>Licensed tax accountants serving Jersey City, Hudson County, and New Jersey businesses and individuals.</p>
+        <p>IRS-registered tax preparers serving Jersey City, Hudson County, and New Jersey businesses and individuals.</p>
         <div class="social-links">
           <a href="https://www.linkedin.com/company/tax-services-jersey-city" target="_blank" rel="noopener noreferrer" aria-label="Tax Services Jersey City on LinkedIn"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45Z"/></svg></a>
           <a href="https://www.facebook.com/taxservicesjerseycity" target="_blank" rel="noopener noreferrer" aria-label="Tax Services Jersey City on Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 21v-7.5h2.5l.4-3h-2.9V8.4c0-.87.24-1.46 1.5-1.46h1.6V4.28C16.3 4.2 15.4 4.1 14.36 4.1c-2.16 0-3.64 1.32-3.64 3.75v2.65H8.2v3h2.52V21h2.78Z"/></svg></a>

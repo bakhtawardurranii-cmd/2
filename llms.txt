@@ -1,6 +1,6 @@
 # Tax Services Jersey City
 
-> Licensed tax accountants providing individual and business tax preparation, tax planning, and year-round filing support for clients in Jersey City, Hudson County, and across New Jersey.
+> IRS-registered tax preparers providing individual and business tax preparation, tax planning, and year-round filing support for clients in Jersey City, Hudson County, and across New Jersey.
 
 Tax Services Jersey City is based at 911 Bergen Ave, 1st Floor, Jersey City, NJ 07306. We prepare federal and New Jersey state tax returns for individuals, freelancers, LLC owners, and small businesses, with a fixed-quote pricing model and a two-preparer review process on every return.
 
@@ -26,9 +26,9 @@ Tax Services Jersey City is based at 911 Bergen Ave, 1st Floor, Jersey City, NJ 
 ## Locations
 
 - [Jersey City](https://taxservicesjerseycity.com/tax-accountant-jersey-city.html): Home office location; in-person and remote service for Downtown, Journal Square, Grove Street, and the waterfront.
-- [Newark](https://taxservicesjerseycity.com/tax-accountant-newark.html): Remote service for Essex County's largest city.
-- [Bloomfield](https://taxservicesjerseycity.com/tax-accountant-bloomfield.html): Remote and by-appointment service for Essex County homeowners and small businesses.
-- [Toms River](https://taxservicesjerseycity.com/tax-accountant-toms-river.html): Fully remote service for Ocean County and the Jersey Shore.
+- [Newark](https://taxservicesjerseycity.com/tax-accountant-newark.html): NY/NJ commuter returns and local business owners, handled remotely.
+- [Bloomfield](https://taxservicesjerseycity.com/tax-accountant-bloomfield.html): Homeowner returns, property tax and the higher federal SALT cap, remote or by appointment.
+- [Toms River](https://taxservicesjerseycity.com/tax-accountant-toms-river.html): Shore rental income and seasonal businesses, fully online.
 - [All Locations](https://taxservicesjerseycity.com/locations.html): Full list of service areas.
 
 ## Insights (Blog)
@@ -41,6 +41,7 @@ Tax Services Jersey City is based at 911 Bergen Ave, 1st Floor, Jersey City, NJ 
 - [First-Year Business Tax Checklist](https://taxservicesjerseycity.com/first-year-business-tax-checklist.html): Tax setup steps for new New Jersey LLC owners.
 - [Quarterly Estimated Taxes for NJ Freelancers](https://taxservicesjerseycity.com/quarterly-estimated-taxes-nj-freelancers.html): Estimated tax guidance for self-employed New Jersey filers.
 - [Handling an IRS or NJ Tax Notice](https://taxservicesjerseycity.com/what-to-do-irs-nj-tax-notice.html): Steps to take after receiving a notice.
+- [The Higher SALT Cap: What It Means for NJ Homeowners](https://taxservicesjerseycity.com/salt-cap-new-jersey-homeowners.html): The federal SALT cap is $40,000 for 2025 and $40,400 for 2026, and what it changes for itemizing and NJ BAIT.
 - [NJ Homeowner Tax Deductions Guide](https://taxservicesjerseycity.com/nj-homeowner-tax-deductions.html): Mortgage interest, property tax, and other homeowner deductions.
 - [Reporting Vacation Rental Income](https://taxservicesjerseycity.com/reporting-vacation-rental-income-taxes.html): Schedule E reporting for short-term and vacation rentals.
 - [5 Bookkeeping Habits for Tax Season](https://taxservicesjerseycity.com/bookkeeping-habits-easier-tax-season.html): Year-round bookkeeping practices for small business owners.

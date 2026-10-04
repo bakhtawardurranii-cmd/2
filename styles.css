@@ -661,3 +661,11 @@ section{ padding:0 0 76px; }
 .deadline-banner p{ margin:0; text-align:center; }
 .deadline-banner a{ color:#F3E6C9; text-decoration:underline; font-weight:600; }
 .deadline-banner a:hover{ color:#fff; }
+
+.hero-hours{ margin-top:14px; font-size:.9rem; color:var(--text-soft); }
+
+.form-note{ margin-top:10px; font-size:.88rem; color:var(--text-soft); }
+
+.seasonal-note{ background:var(--ink,#14213d); color:#fff; font-size:.92rem; padding:10px 0; }
+.seasonal-note .wrap{ display:block; }
+.seasonal-note a{ color:#fff; text-decoration:underline; }

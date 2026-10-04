@@ -42,18 +42,36 @@
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": ["AccountingService", "LocalBusiness"],
+      "@type": [
+        "AccountingService",
+        "LocalBusiness"
+      ],
       "@id": "https://taxservicesjerseycity.com/#business",
       "name": "Tax Services Jersey City",
       "url": "https://taxservicesjerseycity.com/",
       "image": "https://taxservicesjerseycity.com/og-cover.jpg",
-      "description": "Licensed tax accountants providing individual and business tax preparation, planning, bookkeeping, and filing services in Jersey City, NJ and Hudson County.",
+      "description": "Individual and business tax preparation, tax planning, bookkeeping, and IRS notice help in Jersey City, NJ and Hudson County, from IRS-registered preparers.",
       "areaServed": [
-        {"@type": "City", "name": "Jersey City"},
-        {"@type": "City", "name": "Newark"},
-        {"@type": "City", "name": "Bloomfield"},
-        {"@type": "City", "name": "Toms River"},
-        {"@type": "State", "name": "New Jersey"}
+        {
+          "@type": "City",
+          "name": "Jersey City"
+        },
+        {
+          "@type": "City",
+          "name": "Newark"
+        },
+        {
+          "@type": "City",
+          "name": "Bloomfield"
+        },
+        {
+          "@type": "City",
+          "name": "Toms River"
+        },
+        {
+          "@type": "State",
+          "name": "New Jersey"
+        }
       ],
       "knowsAbout": [
         "Individual Tax Preparation",
@@ -80,7 +98,13 @@
       "hasMap": "https://www.google.com/maps?q=911+Bergen+Ave,+Jersey+City,+NJ+07306",
       "openingHoursSpecification": {
         "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
         "opens": "09:00",
         "closes": "18:00"
       },
@@ -95,7 +119,9 @@
       "@id": "https://taxservicesjerseycity.com/#website",
       "url": "https://taxservicesjerseycity.com/",
       "name": "Tax Services Jersey City",
-      "publisher": {"@id": "https://taxservicesjerseycity.com/#business"}
+      "publisher": {
+        "@id": "https://taxservicesjerseycity.com/#business"
+      }
     },
     {
       "@type": "Service",
@@ -103,10 +129,18 @@
       "serviceType": "Bookkeeping Services",
       "name": "Bookkeepers in Jersey City",
       "url": "https://taxservicesjerseycity.com/bookkeeping-services-jersey-city.html",
-      "provider": {"@id": "https://taxservicesjerseycity.com/#business"},
+      "provider": {
+        "@id": "https://taxservicesjerseycity.com/#business"
+      },
       "areaServed": [
-        {"@type": "City", "name": "Jersey City"},
-        {"@type": "State", "name": "New Jersey"}
+        {
+          "@type": "City",
+          "name": "Jersey City"
+        },
+        {
+          "@type": "State",
+          "name": "New Jersey"
+        }
       ],
       "description": "Monthly bookkeeping for Jersey City and New Jersey businesses and freelancers, including bank reconciliation, categorization, and financial statements, coordinated directly with tax filing."
     },
@@ -115,15 +149,34 @@
       "@id": "https://taxservicesjerseycity.com/bookkeeping-services-jersey-city.html#webpage",
       "url": "https://taxservicesjerseycity.com/bookkeeping-services-jersey-city.html",
       "name": "Bookkeepers in Jersey City, NJ | Monthly Bookkeeping",
-      "isPartOf": {"@id": "https://taxservicesjerseycity.com/#website"},
-      "about": {"@id": "https://taxservicesjerseycity.com/bookkeeping-services-jersey-city.html#service"}
+      "isPartOf": {
+        "@id": "https://taxservicesjerseycity.com/#website"
+      },
+      "about": {
+        "@id": "https://taxservicesjerseycity.com/bookkeeping-services-jersey-city.html#service"
+      }
     },
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://taxservicesjerseycity.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://taxservicesjerseycity.com/tax-accountant-new-jersey.html"},
-        {"@type": "ListItem", "position": 3, "name": "Bookkeeping Services", "item": "https://taxservicesjerseycity.com/bookkeeping-services-jersey-city.html"}
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://taxservicesjerseycity.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://taxservicesjerseycity.com/tax-accountant-new-jersey.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Bookkeeping Services",
+          "item": "https://taxservicesjerseycity.com/bookkeeping-services-jersey-city.html"
+        }
       ]
     },
     {
@@ -132,33 +185,48 @@
         {
           "@type": "Question",
           "name": "Do you offer bookkeeping as a standalone service, or only alongside tax preparation?",
-          "acceptedAnswer": {"@type": "Answer", "text": "Bookkeeping can run as a standalone monthly service, or alongside our tax preparation and small business accounting services. Either way, the same team sees your books, so nothing gets re-explained at tax time."}
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bookkeeping can run as a standalone monthly service, or alongside our tax preparation and small business accounting services. Either way, the same team sees your books, so nothing gets re-explained at tax time."
+          }
         },
         {
           "@type": "Question",
           "name": "What bookkeeping software do you work with?",
-          "acceptedAnswer": {"@type": "Answer", "text": "We primarily work in QuickBooks Online. If you're already using different accounting software, tell us during your consultation and we'll confirm whether we can work within it directly or recommend a transition."}
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We primarily work in QuickBooks Online. If you're already using different accounting software, tell us during your consultation and we'll confirm whether we can work within it directly or recommend a transition."
+          }
         },
         {
           "@type": "Question",
           "name": "How often will my books actually be updated?",
-          "acceptedAnswer": {"@type": "Answer", "text": "Monthly. Each month includes bank and credit card reconciliation, transaction categorization, and an updated profit and loss statement and balance sheet."}
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Monthly. Each month includes bank and credit card reconciliation, transaction categorization, and an updated profit and loss statement and balance sheet."
+          }
         },
         {
           "@type": "Question",
           "name": "Can you clean up bookkeeping that's fallen behind?",
-          "acceptedAnswer": {"@type": "Answer", "text": "Yes. Catch-up and cleanup bookkeeping is common, especially before a first tax filing with us. This is typically scoped as a separate one-time project before moving to ongoing monthly service."}
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Catch-up and cleanup bookkeeping is common, especially before a first tax filing with us. This is typically scoped as a separate one-time project before moving to ongoing monthly service."
+          }
         },
         {
           "@type": "Question",
           "name": "How much does bookkeeping cost?",
-          "acceptedAnswer": {"@type": "Answer", "text": "Pricing is a fixed monthly quote based on transaction volume, number of accounts, and current bookkeeping condition, not hourly billing. You'll get a number after a short review of your accounts. As a general guide, monthly bookkeeping in the Jersey City area typically runs about $250 to $900 a month depending on transaction volume."}
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pricing is a fixed monthly quote based on transaction volume, number of accounts, and current bookkeeping condition, not hourly billing. You'll get a number after a short review of your accounts. As a general guide, monthly bookkeeping in the Jersey City area typically runs about $250 to $900 a month depending on transaction volume."
+          }
         }
       ]
     }
   ]
 }
-</script>
+  </script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -181,7 +249,7 @@
     </nav>
     <div class="nav-actions">
       <a href="tel:+19297464698" class="phone-link">929-746-4698</a>
-      <a href="contact.html" class="btn btn-primary">Book a Consultation</a>
+      <a href="contact.html" class="btn btn-primary">Get a Fixed Quote</a>
       <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
         <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M2 5h16M2 10h16M2 15h16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
       </button>
@@ -190,7 +258,7 @@
   <nav id="mobile-menu" class="mobile-menu" hidden aria-label="Mobile">
     <div class="wrap" style="display:flex;flex-direction:column;gap:2px;padding-bottom:20px;">
       <div style="display:flex;flex-direction:column;gap:10px;padding:16px 0 20px;">
-        <a href="contact.html" class="btn btn-primary" style="width:100%;">Book a Consultation</a>
+        <a href="contact.html" class="btn btn-primary" style="width:100%;">Get a Fixed Quote</a>
         <a href="tel:+19297464698" class="btn btn-outline" style="width:100%;">Call 929-746-4698</a>
       </div>
       <a href="tax-accountant-new-jersey.html" style="padding:12px 0;text-decoration:none;color:var(--ink);border-bottom:1px solid var(--line);">Services</a>
@@ -214,9 +282,10 @@
         <h1>Bookkeepers in Jersey City who keep your books ready before tax season arrives</h1>
         <p class="lede">Monthly reconciliation, categorization, and financial statements for Jersey City and New Jersey businesses and freelancers, so your tax return isn't built from a shoebox of receipts every spring.</p>
         <div class="hero-ctas">
-          <a href="contact.html" class="btn btn-primary">Book a Consultation</a>
+          <a href="contact.html" class="btn btn-primary">Get a Fixed Quote</a>
           <a href="tel:+19297464698" class="btn btn-outline">Call 929-746-4698</a>
         </div>
+        <p class="hero-hours">Mon–Fri, 9 AM–6 PM · Reply within one business day</p>
       </div>
       <div class="ledger-card" role="group" aria-label="Bookkeeping service facts">
         <p class="ledger-title">Bookkeeping, At A Glance</p>
@@ -392,7 +461,7 @@
     <h2 id="cta-heading">Get a fixed quote for monthly bookkeeping</h2>
     <p>Share a bit about your business and current books, and we'll confirm what monthly bookkeeping looks like and what it costs.</p>
     <div class="hero-ctas">
-      <a href="contact.html" class="btn btn-primary">Schedule a Consultation</a>
+      <a href="contact.html" class="btn btn-primary">Get a Fixed Quote</a>
       <a href="tel:+19297464698" class="btn btn-outline">Call 929-746-4698</a>
     </div>
   </section>
@@ -404,7 +473,7 @@
     <div class="footer-grid">
       <div class="footer-brand">
         <a href="/" class="brand" style="color:#fff;"><img src="logo-light.png" alt="Tax Services Jersey City" class="footer-brand-logo"></a>
-        <p>Licensed tax accountants serving Jersey City, Hudson County, and New Jersey businesses and individuals.</p>
+        <p>IRS-registered tax preparers serving Jersey City, Hudson County, and New Jersey businesses and individuals.</p>
         <div class="social-links">
           <a href="https://www.linkedin.com/company/tax-services-jersey-city" target="_blank" rel="noopener noreferrer" aria-label="Tax Services Jersey City on LinkedIn"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45Z"/></svg></a>
           <a href="https://www.facebook.com/taxservicesjerseycity" target="_blank" rel="noopener noreferrer" aria-label="Tax Services Jersey City on Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 21v-7.5h2.5l.4-3h-2.9V8.4c0-.87.24-1.46 1.5-1.46h1.6V4.28C16.3 4.2 15.4 4.1 14.36 4.1c-2.16 0-3.64 1.32-3.64 3.75v2.65H8.2v3h2.52V21h2.78Z"/></svg></a>
