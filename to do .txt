@@ -1,7 +1,0 @@
-maps 
-hours
-address
-google maps integration 
-google analytics
-google tag 
-google search console 
